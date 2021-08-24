@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-courseApiApp<course-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.swathi.springboot.courseapi.courseApiApp",
+            "projectName": "course-api",
+            "args": ""
+        }
+    ]
+}
