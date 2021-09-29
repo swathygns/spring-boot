@@ -1,13 +1,18 @@
-package com.swathi.springboot.courseapi;
+package com.swathi.springboot.hello;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class helloController {
+public class HelloController {
 
     @RequestMapping("/hello")
     public String sayHi(){
         return "Hello from springboot";
     }
+    @RequestMapping("/bye")
+    public String sayBye(){
+        return "Bye from springboot";
+    }
+   
 }

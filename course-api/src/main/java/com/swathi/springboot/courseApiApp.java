@@ -1,4 +1,4 @@
-package com.swathi.springboot.courseapi;
+package com.swathi.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
