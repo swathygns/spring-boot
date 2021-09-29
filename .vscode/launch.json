@@ -2,12 +2,39 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "com.swathi.App",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-courseApiApp<course-api>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
             "mainClass": "com.swathi.springboot.courseapi.courseApiApp",
             "projectName": "course-api",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-courseApiApp<course-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.swathi.springboot.courseApiApp",
+            "projectName": "course-api",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CourseApiDataApplication<course-api-data>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.swathi.springboot.CourseApiDataApplication",
+            "projectName": "course-api-data",
             "args": ""
         }
     ]
